@@ -12,11 +12,15 @@ To use the code, you need to follow these steps:
     ```bash
     git clone git@github.com:OpenNyAI/jugalbandi-api.git
     ```
-
+    or
+    ```bash
+     git clone https://github.com/OpenNyAI/jugalbandi-api.git
+    ```
+    
 2. The code requires **Python 3.7 or higher** and some additional python packages. To install these packages, run the following command in your terminal:
 
     ```bash
-    pip install requirements-dev.txt
+    pip install -r requirements-dev.txt
     ```
 
 3. You will need a GCP account to store the uploaded documents & indices in a bucket and to host a postgres connection to store the api logs.
